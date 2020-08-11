@@ -3,13 +3,9 @@
 /tsconfig.json
 /.eslintrc.js
 /node_modules
+/webpack.config.js
 
-/task_0/package-lock.json
-/task_0/node_modules
-/task_0/dist/bundle.js
-
-/task_1/package-lock.json
-/task_1/node_modules
-/task_1/.eslintrc.js
-/task_1/dist/bundle.js
+/task_*/package-lock.json
+/task_*/node_modules
+/task_*/dist/bundle.js
 
