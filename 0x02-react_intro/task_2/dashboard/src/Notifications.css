@@ -1,4 +1,19 @@
 .Notifications {
-    border: 2px solid red;
-    padding: 1rem;
+    border: 2px dashed red;
+    /* padding: 1rem; */
+}
+
+.Notifications button {
+    position: absolute;
+    margin: 1rem;
+    right: 0;
+    top: 0;
+}
+
+li:first-child {
+    color: blue !important;
+}
+
+ul li {
+    color: red;
 }

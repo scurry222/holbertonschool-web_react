@@ -24,6 +24,10 @@ img {
   width: 25%;
 }
 
+input {
+  margin: .5rem;
+}
+
 footer {
   display: flex;
   justify-content: center;
