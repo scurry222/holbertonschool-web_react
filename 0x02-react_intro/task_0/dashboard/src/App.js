@@ -6,16 +6,16 @@ export default class App extends React.Component {
   render() {
     return (
       <>
-        <header className="App-header">
+        <div className="App-header">
           <img src={logo}></img>
           <h1>School Dashboard</h1>
-        </header>
+        </div>
         <hr />
-        <body className="App-body">
+        <div className="App-body">
           <p>Login to access the full dashboard</p>
-        </body>
+        </div>
         <hr />
-        <footer>Copyright 2020 - holberton School</footer>
+        <div className="App-footer">Copyright 2020 - holberton School</div>
       </>
     )
   }

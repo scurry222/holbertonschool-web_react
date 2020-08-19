@@ -17,3 +17,7 @@ li:first-child {
 ul li {
     color: red;
 }
+
+.close {
+    width: 1rem;
+}

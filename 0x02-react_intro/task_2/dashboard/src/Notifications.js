@@ -1,8 +1,10 @@
 import React from 'react';
 import './Notifications.css'
 import { getLatestNotification } from './utils'
+import close from './close-icon.png';
 
 export const Notification = () => {
+  const handleClick = () => console.log('Close button has been clicked')
   return (
     <div className="Notifications">
       <p>Here is the list of notifications</p>
@@ -19,9 +21,9 @@ export const Notification = () => {
             display: 'inline',
         }}
         aria-label='Close'
-        onClick="console.log(Close button has been clicked)"
-    >
-        <img src="./close-icon.png"></img>
+        onClick={handleClick}
+      >
+        <img src={close} className="close"></img>
       </button>
     </div>
   )
