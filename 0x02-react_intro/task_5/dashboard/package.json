@@ -1,0 +1,32 @@
+{
+  "name": "task_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.config.js --mode development --open --hot",
+    "build": "webpack-dev-server --mode development --open",
+    "prod_build": "webpack --mode development",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "transpile": "babel src/index.js --out-file src/index-transpiled.js"
+}
